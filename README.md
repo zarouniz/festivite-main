@@ -18,7 +18,7 @@ Desafio de CSS Forms
 <br>
 
 <p align="center">
-  <img alt="Festivite - Convite de Festa src="/.github/cover.jpg width="100%">
+  <img alt="Festivite - Convite de Festa" src="/.github/cover.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias
