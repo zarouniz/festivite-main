@@ -1,0 +1,40 @@
+input, textarea, select {
+    appearance: none;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 2px solid var(--input-stroke);
+    background-color: var(--input-base);
+    font: var(--body-md);
+    color: var(--input-placeholder);
+}
+
+/* Aplica a cor branca a inputs sem placeholder visível, exceto datetime-local */
+input:not(:placeholder-shown):not([type="datetime-local"]),
+textarea:not(:placeholder-shown) {
+    color: var(--text-heading);
+}
+
+input[type="datetime-local"].filled {
+    color: var(--text-heading);
+}
+
+label {
+    display: block;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="datetime-local"]:focus-within {
+    outline: transparent;
+    border-color: var(--brand-light);
+}
+
+.event-info .flex {
+    gap: 1rem;
+}
+
+.contact-information .flex {
+    gap: 1rem;
+}
